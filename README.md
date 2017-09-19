@@ -1,6 +1,6 @@
 # KBOT V2.0
 
-Un KBOTS est un "robot sandwich" (vu sa forme) doté de deux roues motrices (donc deux moteurs+codeurs), d'une Arduino Méga, d'un écran LCD, d'une batterie… C'est une fabrication maison que réalise les premières années pour acquérir les bases de la robotique & se familiariser avec la programmation à travers l'environnement Arduino.
+Un KBOT est un "robot sandwich" (vu sa forme) doté de deux roues motrices (donc deux moteurs+codeurs), d'une Arduino Méga, d'un écran LCD, d'une batterie… C'est une fabrication maison que réalise les premières années du club de robotique de l'ENS Paris-Saclay pour acquérir les bases de la robotique & se familiariser avec la programmation à travers l'environnement Arduino.
 Pour plus d'information consultez notre site [[Kro]bot](https://wiki.crans.org/ClubKrobot).
 
 Informations générales :
