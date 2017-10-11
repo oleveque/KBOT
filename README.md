@@ -16,3 +16,7 @@ Ports I/O :
 * 1 Buzzer ;
 * 1 port extension pour 5 Boutons ;
 * 1 port extension pour 10 Leds.
+
+Changements à venir pour la version 2.1 :
+* CAO -> simplifier les entretoises des roues + ajuster l'empreinte de l'écran LCD
+* PCB -> corriger l'agencement buzzer/bluetooth + corriger les couleurs des fils des encoders + changer le sens de la nappe PowerDistributor-PropulsionShield
