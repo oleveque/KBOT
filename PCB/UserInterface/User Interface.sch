@@ -2249,16 +2249,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="LED" library="SparkFun-Connectors" deviceset="CONN_05X2" device="SHD"/>
 <part name="BUTTONS" library="SparkFun-Connectors" deviceset="CONN_05X2" device="SHD"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED_BARGRAPH_10" device="RED" value="RED"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
-<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
-<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
-<part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
-<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
-<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
-<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
-<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
-<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
-<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
+<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="470"/>
+<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="470"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="470"/>
+<part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="470"/>
+<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="470"/>
+<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="470"/>
+<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="470"/>
+<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="470"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="470"/>
+<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="470"/>
 <part name="UP" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM"/>
 <part name="DOWN" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM"/>
 <part name="CENTER" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM"/>
@@ -2268,7 +2268,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="D2" library="SparkFun-LED" deviceset="LED-BLUE" device="1206" value="BLUE"/>
-<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
+<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="470"/>
 </parts>
 <sheets>
 <sheet>
@@ -2288,7 +2288,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="R7" gate="G$1" x="177.8" y="93.98"/>
 <instance part="R8" gate="G$1" x="177.8" y="86.36"/>
 <instance part="R9" gate="G$1" x="177.8" y="78.74"/>
-<instance part="R10" gate="G$1" x="177.8" y="68.58"/>
+<instance part="R10" gate="G$1" x="177.8" y="71.12"/>
 <instance part="UP" gate="G$1" x="99.06" y="116.84" smashed="yes">
 <attribute name="NAME" x="99.06" y="118.364" size="1.778" layer="95" font="vector" align="bottom-center"/>
 </instance>
@@ -2479,8 +2479,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$10" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="182.88" y1="68.58" x2="203.2" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="68.58" x2="203.2" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="71.12" x2="203.2" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="71.12" x2="203.2" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A9"/>
 <wire x1="203.2" y1="96.52" x2="205.74" y2="96.52" width="0.1524" layer="91"/>
 </segment>
@@ -2562,9 +2562,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$20" class="0">
 <segment>
 <pinref part="LED" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="99.06" x2="144.78" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="99.06" x2="144.78" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="68.58" x2="172.72" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="71.12" x2="172.72" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
