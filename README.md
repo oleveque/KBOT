@@ -12,8 +12,8 @@ Informations générales :
 
 Ports I/O :
 * 1 module Bluetooth (HC-06) ;
-* 1 port SHARP (GP2D12);
-* 1 port Servo (SG90);
+* 1 port SHARP (GP2D12) ;
+* 1 port Servo (SG90) ;
 * 1 port pour controler le niveau de charge de la batterie ;
 * 1 Buzzer ;
 * 1 port extension pour 5 Boutons ;
