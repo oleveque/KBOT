@@ -1,3 +1,9 @@
+/************************************************************************
+ * File : Buzzer.ino                                                    *
+ *  Example : how to play music with a buzzer                           *
+ *                                                                      *
+ * Copyright : (c) 2017, Olivier Lévêque <oleveque@crans.org>           *
+ ************************************************************************/
 #include "KBOT_CONFIG.h"
 #include "melody.h"
 
@@ -15,6 +21,10 @@ void setup() {
 }
 
 void loop() {
+  playMelody();
+}
+
+void playMelody() {
   for (int i = 0; i < MAX_COUNT; i++) {
     toneM = melody[i];
     beat = beats[i];

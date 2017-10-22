@@ -1,6 +1,13 @@
-#include "KBOT_CONFIG.h"
+/************************************************************************
+ * File : LCD.ino                                                       *
+ *  Example : how to use the LCD screen                                 *
+ *                                                                      *
+ * Copyright : (c) 2017, Olivier Lévêque <oleveque@crans.org>           *
+ ************************************************************************/
+ #include "KBOT_CONFIG.h"
 
-LiquidCrystal_I2C lcd(0x3F,16,2);
+int LDCaddress = 0x3F; //flash I2C_Scanner.ino to know which address to use
+LiquidCrystal_I2C lcd(LDCaddress,16,2);
 
 void setup() {
   lcd.init();              

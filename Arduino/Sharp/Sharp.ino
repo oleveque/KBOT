@@ -1,8 +1,9 @@
-/*
- * Example for SHARP GPD2D12
- * 
- */
-
+/************************************************************************
+ * File : Sharp.ino                                                     *
+ *  Example : how to get a distance with a SHARP GPD2D12                *
+ *                                                                      *
+ * Copyright : (c) 2017, Olivier Lévêque <oleveque@crans.org>           *
+ ************************************************************************/
 #include "KBOT_CONFIG.h"
 
 void setup() {

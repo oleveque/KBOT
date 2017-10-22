@@ -1,3 +1,9 @@
+/************************************************************************
+ * File : Motor.ino                                                     *
+ *  Example : how to set the speed of a DC motor                        *
+ *                                                                      *
+ * Copyright : (c) 2017, Olivier Lévêque <oleveque@crans.org>           *
+ ************************************************************************/
 #include "KBOT_CONFIG.h"
 
 #define RIGHT 1

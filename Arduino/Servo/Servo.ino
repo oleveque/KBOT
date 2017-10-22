@@ -1,4 +1,10 @@
-#include "KBOT_CONFIG.h"
+/************************************************************************
+ * File : Servo.ino                                                     *
+ *  Example : how to control a servomotor                               *
+ *                                                                      *
+ * Copyright : (c) 2017, Olivier Lévêque <oleveque@crans.org>           *
+ ************************************************************************/
+ #include "KBOT_CONFIG.h"
 
 Servo myServo;
 

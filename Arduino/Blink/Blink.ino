@@ -1,4 +1,10 @@
-#include "KBOT_CONFIG.h"
+/************************************************************************
+ * File : Blink.ino                                                     *
+ *  Example : how to blink the led buildin                              *
+ *                                                                      *
+ * Copyright : (c) 2017, Olivier Lévêque <oleveque@crans.org>           *
+ ************************************************************************/
+ #include "KBOT_CONFIG.h"
 
 int myLed = LED_BUILDIN;
 

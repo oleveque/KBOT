@@ -1,4 +1,10 @@
-#include "KBOT_CONFIG.h"
+/************************************************************************
+ * File : I2C_Scanner.ino                                               *
+ *  Example : Scan I2C address devices connected to your Kbot           *
+ *                                                                      *
+ * Copyright : (c) 2017, Olivier Lévêque <oleveque@crans.org>           *
+ ************************************************************************/
+ #include "KBOT_CONFIG.h"
 
 void setup() {
   I2C.begin();
