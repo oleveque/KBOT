@@ -8,7 +8,7 @@ Pour plus d'information consultez notre site [[Kro]bot](https://wiki.crans.org/C
 ## Informations générales :
 * *Mode de déplacement du robot :* entraînement différenciel
 * *Moyens de communication :* USB, Bluetooth
-* *Version actuelle :* 2.0 (Révisé par Y. Labbe & O. Leveque - Sept. 2017)
+* *Version actuelle :* 2.0 (Révisé par Y. Labbe & O. Lévêque - Sept. 2017)
 
 ## Ports I/O :
 * 1 module Bluetooth (HC-06) ;
