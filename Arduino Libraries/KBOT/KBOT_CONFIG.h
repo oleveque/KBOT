@@ -10,7 +10,7 @@
 #define __KBOT_CONFIG_H
 
 /* ------------------------- 
-  Libraries usefull
+  Usefull libraries
 ------------------------- */
 
 #include <Servo.h>
