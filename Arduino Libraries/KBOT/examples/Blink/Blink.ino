@@ -6,7 +6,7 @@
  ************************************************************************/
  #include <KBOT_CONFIG.h>
 
-int myLed = LED_BUILDIN;
+int myLed = BUILTIN_LED;
 
 void setup() {
   pinMode(myLed, OUTPUT);     

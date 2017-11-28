@@ -37,7 +37,7 @@
 #define BLUETOOTH 	Serial2
 
 //User Interface
-#define LED_BUILDIN 13
+#define BUILTIN_LED 13
 #define LED0 		47
 #define LED1 		45
 #define LED2 		43
