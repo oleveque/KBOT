@@ -22,4 +22,4 @@ Pour plus d'information consultez notre site [[Kro]bot](https://wiki.crans.org/C
 ## Amélioration pour la version 2.1 :
 * CAO -> simplifier les entretoises des roues + ajuster l'empreinte de l'écran LCD + ajouter un système de fixations pour les cales avant/arrière
 * PCB -> corriger l'agencement buzzer/bluetooth + corriger les couleurs des fils des encoders + changer le sens de la nappe PowerDistributor-PropulsionShield + changer le sens de connecteur batterie + amener la led 13 sur le UI
-* Arduino -> Ajouter 1 exemple du bluetooth / du monitoring battery / de l'Asserv / des encoders
+* Arduino -> Ajouter 1 exemple d'Asserv
